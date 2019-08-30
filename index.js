@@ -1,5 +1,6 @@
 const express = require('express')
 const path = require('path')
+const pug = require('pug')
 const PORT = process.env.PORT || 5000
 
 var app = express();
@@ -11,7 +12,7 @@ app.set('view engine', 'pug');
 
 
 //app.get('/', function(req, res) {  res.render('pages/index.ejs', {     title: 'Home KJ2019'  });  });
-app.get('/index1', function(req, res) {  res.render('index1', {     title: 'iHome KJ2019'  });  });
+app.get('/index1', function(req, res) {  res.render('index1.pug', {     title: 'iHome KJ2019'  });  });
 
 
 //app.get('/wedding', (req, res) => res.render('wedding.pug', {title: 'wHome KJ2019'}));
