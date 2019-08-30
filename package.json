@@ -1,0 +1,31 @@
+{
+  "name": "kylajairo2019",
+  "version": "0.3.0",
+  "description": "A simple Node.js app using Express 4 and pug for our wedding",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "request": "^2.88.0",
+    "tape": "^4.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "??"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "kylajairo2019",
+  "description": "For our wedding",
+  "repository": "TODO:VALIDATE WHAT GOES HERE",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
