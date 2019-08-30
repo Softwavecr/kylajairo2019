@@ -11,7 +11,7 @@ app.set('view engine', 'pug');
 
 
 app.get('/', function(req, res) {  res.render('pages/index.ejs', {     title: 'Home KJ2019'  });  });
-// app.get('/index1', function(req, res) {  res.render('index1', {     title: 'iHome KJ2019'  });  });
+app.get('/index1', function(req, res) {  res.render('index1', {     title: 'iHome KJ2019'  });  });
 
 
 app.get('/wedding', (req, res) => res.render('wedding.pug', {title: 'wHome KJ2019'}));
