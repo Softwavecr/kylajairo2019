@@ -4,9 +4,9 @@ const PORT = process.env.PORT || 5000
 
 var app = express();
 app.use(express.static(__dirname + '/public'));
-app.set('view engine', 'pug')
 app.set('views', path.join(__dirname, 'views'));//router.set('port', PORT);
-app.get('/', function(req, res) {  res.render('index', {     title: 'Home KJ2019'  });  });
+app.set('view engine', 'ejs');
+app.get('/', function(req, res) {  res.render('pages/index', {     title: 'Home KJ2019'  });  });
 
 // app.get('/index1', function(req, res) {  res.render('index1', {     title: 'iHome KJ2019'  });  });
 // app.get('/wedding', (req, res) => res.render('wedding', {title: 'wHome KJ2019'}))
