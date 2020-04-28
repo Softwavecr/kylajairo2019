@@ -23,4 +23,4 @@ app.get('/venue', (req, res) => res.render('venue', {title: 'Venue'}))
 app.get('/todo', (req, res) => res.render('todo', {title: 'NYC Recreation'}))
 app.get('/food', (req, res) => res.render('food', {title: 'Foo:D!!!'}))
 
-app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
+app.listen(PORT, () => console.log(`Listening on ${ PORT }!`));
